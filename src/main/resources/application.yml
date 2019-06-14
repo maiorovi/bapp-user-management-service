@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: bapp-usr-management-service
+
+server:
+  port: 8081
+
+logging:
+  level:
+    org.springframework: DEBUG
+    com.bapp.user.management: DEBUG
