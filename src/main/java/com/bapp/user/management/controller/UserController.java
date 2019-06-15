@@ -1,11 +1,9 @@
 package com.bapp.user.management.controller;
 
-import com.bapp.user.management.entity.UserEntity;
 import com.bapp.user.management.model.CreateUserRequest;
 import com.bapp.user.management.model.User;
 import com.bapp.user.management.service.user.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
