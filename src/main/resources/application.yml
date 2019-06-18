@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: bapp-usr-management-service
-
 server:
   port: 8081
 
